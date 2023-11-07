@@ -1,7 +1,7 @@
 function init(){
-var button = document.getElementById('entrybutton');
+ var button = document.getElementById('entrybutton');
 
-function showMeText(){
+ function showMeText(){
    var textbox = document.getElementById('entryinput');
    document.getElementById('textoutput').innerHTML = textbox.value;
    alert("Gabriel Prado: " + textbox.value);
