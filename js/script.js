@@ -7,7 +7,7 @@ function init(){
     alert("Gabriel Prado: " + textbox.value);
    }
 
-button.addEventListener('click', showMeText);
-}
+   button.addEventListener('click', showMeText);
+   }
 
 window.addEventListener('load', init);
